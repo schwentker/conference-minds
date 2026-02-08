@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conference-minds"
+version = "1.0.0"
+description = "Transform conference transcripts into persistent, conversational speaker-agents"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "schwentker"}]
+keywords = ["conference", "transcript", "ai-agents", "speaker", "mcp", "openclaw"]
+
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.0.0", "pydantic>=2.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+conference-minds = "scripts.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["src*", "scripts*"]

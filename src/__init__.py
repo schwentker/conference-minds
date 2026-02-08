@@ -1,0 +1,1 @@
+# conference-minds core library

@@ -1,0 +1,12 @@
+{
+  "name": "conference-minds",
+  "version": "1.0.0",
+  "description": "Transform conference transcripts into persistent, conversational speaker-agents",
+  "author": "schwentker",
+  "license": "MIT",
+  "repository": "https://github.com/schwentker/conference-minds",
+  "keywords": [
+    "conference", "transcript", "ai-agents", "speaker", "knowledge-persistence",
+    "openclaw", "mcp", "clawhub"
+  ]
+}
